@@ -1,0 +1,79 @@
+/* General Page Style */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #fff3e0);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+#formContainer, #portfolioContainer {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Form Elements */
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #0077b6;
+  box-shadow: 0px 0px 5px rgba(0,119,182,0.5);
+}
+
+/* Buttons */
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #023e8a;
+}
+
+/* Portfolio Preview */
+#portfolioPreview {
+  margin-top: 20px;
+}
+
+#portfolioPreview h1 {
+  color: #0077b6;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#portfolioPreview h2 {
+  color: #ff6f00;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#portfolioPreview p, 
+#portfolioPreview ul {
+  font-size: 16px;
+  line-height: 1.6;
+}
